@@ -1,0 +1,22 @@
+.first-dialog {
+  .mat-dialog-container{
+    padding: 0;
+    .mat-form-field{
+      width: 100%;
+    }
+    .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background{
+      background-color: blue;
+    }
+    .mat-checkbox{
+      span.mat-checkbox-inner-container{
+        margin-left: 1rem;
+      }
+    }
+
+  }
+}
+.second-dialog{
+  .mat-dialog-container{
+    background-color: green;
+  }
+}
